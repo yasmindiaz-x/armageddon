@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: Oswald;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+}
+:root{
+    --cor01: #273F19;
+    --cor02: #1A401B;
+    --cor03: #38401A;
+    --cor04: #1D420E;
+    --cor05: #000000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+}
+header{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+header p{
+    font-family: Oswald;
+    font-size: 20px;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.507);
+}
+header>p.one{
+    text-align: center;
+    margin-bottom: -30px;
+    font-weight: bold;
+    color: white;
+}
+header>p.two{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+}
+header>picture.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: -10px -10px -10px -10px;
+}
+nav{
+    font-family: Oswald;
+}
+nav a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+nav a#pink:hover{
+    color: rgb(231, 85, 165);
+    transition: 0.3s;
+}
+nav a#red:hover{
+    color: rgb(143, 0, 0);
+    transition: 0.3s;
+}
+nav a#orange:hover{
+    color: rgb(0, 148, 0);
+    transition: 0.3s;
+}
+nav a#lightgrey:hover{
+    color: grey;
+    transition: 0.3s;
+}
